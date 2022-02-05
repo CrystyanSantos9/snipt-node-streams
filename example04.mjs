@@ -69,8 +69,8 @@ const pipelineSync = promisify(pipeline)
         readableStream,
         mapToCSV,
         setHeader,
-        createWriteStream('file.csv')
-        // process.stdout
+        // createWriteStream('file.csv')
+         process.stdout
         // writableStream
 
     )
